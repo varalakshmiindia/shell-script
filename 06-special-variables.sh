@@ -11,6 +11,9 @@ echo "script name: $0"  //file name
   echo "pid of current script: $$"
   sleep 5
    echo "pid of background cmd of running just now: $!"
+   wait $!
+   echo "line number: $LINENO"
+    echo "script executed in $SECONDS seconds"
 
 
 
