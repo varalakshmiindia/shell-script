@@ -9,7 +9,7 @@
 
 if [$number -gt 20 ] ; then
 echo "given number $number is greater to 20"
-elseif [$number -eq 20]; then
+elif [$number -eq 20 ]; then
 echo "given number $number is equal to 20"
 else
 echo "given number $number is less than to 20"
