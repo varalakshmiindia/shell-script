@@ -14,6 +14,9 @@ echo "script name: $0"  //file name
    wait $!
    echo "line number: $LINENO"
     echo "script executed in $SECONDS seconds"
+    echo "random number $RANDOM"
+ echo "exit code of previous cmd $?"
+
 
 
 
