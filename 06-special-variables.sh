@@ -8,7 +8,9 @@ echo "script name: $0"  //file name
  
  echo "which directory: $PWD"
  echo "user home directory: $HOME"
-  echo "pid of current script:" $$"
+  echo "pid of current script: $$"
+  sleep 5
+   echo "pid of background cmd of running just now: $!"
 
 
 
