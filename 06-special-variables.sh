@@ -7,5 +7,8 @@ echo "first number: $1"
 echo "script name: $0"  //file name
  
  echo "which directory: $PWD"
+ echo "user home directory: $HOME"
+  echo "pid of current script:" $$"
+
 
 
