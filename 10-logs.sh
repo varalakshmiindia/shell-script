@@ -25,7 +25,7 @@ echo "i am continuing"
  fi
 
  yum list install nginx &>> $logs_file
- if[$? -eq 0]; then
+ if [ $? -eq 0 ]; then
  echo "nginx alreay installed" 
  else
  echo "installing nginx"
