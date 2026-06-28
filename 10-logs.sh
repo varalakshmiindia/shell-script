@@ -6,10 +6,12 @@ USERID=$(id -u)
 logs_dir=/var/log/shell-script
 logs_file="$logs_dir/$0.log"   #/home/root/shell-logs/10.logs.sh.log
 
-if[ $USERID -ne 0 ]; then
+if [ $USERID -ne 0 ]; then
 echo "pls run this script with root access"
 exit 1
 fi
+
+
 ##echo "i am continuing"
 
 # yum install mysql &>> $logs_file
