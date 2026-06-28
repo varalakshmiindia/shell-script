@@ -29,7 +29,7 @@ echo "i am continuing"
  echo "nginx alreay installed" 
  else
  echo "installing nginx"
- dnf install nginx -y &>> $logs_file
+ yum install nginx -y &>> $logs_file
  validate nginx $?
 
 fi
