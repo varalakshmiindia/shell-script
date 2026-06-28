@@ -17,3 +17,8 @@ exit 1
 else
 echo "installling my sql is... success"
 fi
+
+
+#dnf list installed mysql   chek mysql is install or not
+echo $?
+#dnf list installed mysql-sever
