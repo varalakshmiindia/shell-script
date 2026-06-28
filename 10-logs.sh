@@ -16,7 +16,7 @@ echo "i am continuing"
 
  yum install mysql &>> $logs_file
 
- if [$? -eq 0]; then 
+ if [ $? -eq 0]; then 
  echo "mysql already installed skip"
  else
  echo "installing mysql"
